@@ -14,8 +14,6 @@ public class Bank{
 	public Bank(String name, int code) {
 		this.name = name; // Name of the bank
 		this.code = code; // Code for the bank
-		this.name = name; // Set the bank's name
-		this.code = code; // Set the bank's code
 		this.accounts = new ArrayList<>(); // Initialize the accounts list
 		this.loans = new ArrayList<>(); // Initialize the loans list
 	}
